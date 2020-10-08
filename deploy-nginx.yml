@@ -1,5 +1,6 @@
 ---
 - hosts: all
+  become: yes
   collections:
     - nginxinc.nginx_core
   roles:
